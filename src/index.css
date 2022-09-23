@@ -1,13 +1,106 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F1F5F8;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ .section{
+   width: 90vw; 
+   max-width: 1107px;
+   margin: 5rem auto; 
+} 
+.title{
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 1.5rem;
 }
+.underline{
+  width: 5rem;
+  height: 0.25rem;
+  margin-bottom: 1.25rem;
+  background-color: #2CAEBA;
+  margin-left: auto;
+  margin-right: auto;
+}
+.jobs-center{
+   width: 80vw; 
+   margin: 0 auto; 
+   max-width: 1107px; 
+}
+.btn-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+  
+}
+.job-btn{
+  background: transparent;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  margin: 0 0.5rem;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  padding: 0.25rem 0;
+  outline-color: hsl(186, 100%, 94%);
+  transition: all 0.3s linear;
+
+}
+
+.job-btn:hover{
+  color: #2caeba;
+  box-shadow: 0 2px #2caeba;
+}
+.active-btn{
+  color: #2caeba;
+  box-shadow: 0 2px #2caeba;
+}
+.job-info{
+  font-weight: 400;
+}
+.job-info h4{
+  text-transform: capitalize;
+  color:  hsl(210, 22%, 49%);
+  background: hsl(212, 33%, 89%);
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border-radius: 0.15rem;
+}
+.job-date{
+  letter-spacing: 0.0.53rem;
+}
+.job-desc p{
+  margin-bottom: 0;
+  color: hsl(210, 22%, 49%);
+  font-size: 1.1rem;
+}
+.job-icon{
+  color:  #2caeba;
+}
+
+.job-btn{
+  margin-bottom: 1rem;
+}
+
+.last-btn{
+  background-color: #2CAEBA;
+  color: #ffff;
+  margin-top: 2rem;
+  border: none;
+  width: 12rem;
+  height: 2rem;
+  text-transform: uppercase;
+  border-radius: 0.2rem;
+
+}
+.last-btn-container{
+  text-align: center;
+}
+.last-btn:hover{
+  background-color: #16575D;
+}
+
+
